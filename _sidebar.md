@@ -77,3 +77,29 @@
 	- [第七十三 他心通](book_75/genzo73.md)
 	- [第七十四 王索仙陀婆](book_75/genzo74.md)
 	- [第七十五 出家](book_75/genzo75.md)
+
+- 12巻本
+	- [第一 出家功德](book_12/genzoa01.md)
+	- [第二 受戒](book_12/genzoa02.md)
+	- [第三 袈裟功德](book_12/genzoa03.md)
+	- [第四 發菩提心](book_12/genzoa04.md)
+	- [第五 供養諸佛](book_12/genzoa05.md)
+	- [第六 歸依佛法僧寶](book_12/genzoa06.md)
+	- [第七 深信因果](book_12/genzoa07.md)
+	- [第八 三時業](book_12/genzoa08.md)
+	- [第九 四馬](book_12/genzoa09.md)
+	- [第十 四禪比丘](book_12/genzoa10.md)
+	- [第十一 一百八法明門](book_12/genzoa11.md)
+	- [第十二 八大人覺](book_12/genzoa12.md)
+
+- 別巻
+	- [第二十八 菩提薩塼四攝法](book_other/genzob01.md)
+	- [第十二 法華轉法華](book_other/genzob02.md)
+	- [第三十八 唯佛與佛](book_other/genzob03.md)
+	- [生死](book_other/genzob04.md)
+	- [道心](book_other/genzob05.md)
+
+- その他
+	- [心不可得](book_misc/genzoc01.md)
+	- [重雲堂式](book_misc/genzoc02.md)
+	- [示庫院文](book_misc/genzoc03.md)
