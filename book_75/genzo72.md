@@ -116,7 +116,7 @@
 　某寮   某甲  
 　拜賀  
 　又の式  
-　<img width="16" height="16" src="_czgRlZR.png" border="0">雲   懷昭等  
+　巢雲   懷昭等  
 　拜賀  
 　又の式  
 　某甲  
