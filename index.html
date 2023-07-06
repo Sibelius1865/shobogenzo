@@ -11,9 +11,28 @@
 <body>
   <div id="app"></div>
   <script>
+    const hilight = (hook, vm) => {
+      let word = '';
+      hook.mounted(_ => {
+        const input = document.getElementsByTagName('input')[0];
+        input.addEventListener('input', () => {
+          word = input.value;
+        })
+      })
+      hook.doneEach(_ => {
+        let reg = new RegExp(word, "gi");
+        const p_elements = document.getElementsByTagName('p');
+        for(let pi=0; pi < p_elements.length; pi++) {
+          if (word !== '') {
+            p_elements[pi].innerHTML = p_elements[pi].innerHTML.replace(reg, t => '<span style="background-color: yellow;">' + t + '</span>');
+          }
+        }
+      })
+    }
+
     window.$docsify = {
       name: '正法眼蔵',
-      repo: '',
+      repo: '.',
 			loadSidebar: true,
       search: {
         // maxAge: 20000,
@@ -24,10 +43,13 @@
       requestHeaders: {
         'cache-control': 'max-age=0',
       },
+      plugins: [
+        hilight,
+      ]
     }
   </script>
   <!-- Docsify v4 -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
-</body>
+s</body>
 </html>
